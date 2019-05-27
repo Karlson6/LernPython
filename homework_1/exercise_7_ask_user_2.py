@@ -10,5 +10,6 @@ def ask_user():
                 print(answer_d.get(user_answer))
     except KeyboardInterrupt:
         print("Как? Уже уходишь?... Ну пиши... Не забывай")
+        
 ask_user()
 
